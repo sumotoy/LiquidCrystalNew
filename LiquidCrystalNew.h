@@ -15,10 +15,14 @@ I choosed microchip MCP GPIOs because the SPI version has a feature called HAEN 
 allow you to wire a max of 8 chips on the same 3,4 pins (all must using HAEN of course),
 this it's extreme useful in many cases. You can also choose I2C version that use just 2 pin.
 -------------------------------------------------------------------------------------------
-Version: 1.1a7
+Version: 1.1a8
 Author: the author of the original LiquidCrystal440 for the original library
 Mods and Adapts: Max MC Costa
 WARNING: Tested only with SPI!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+1.1a7: initial working release
+1.1a8: fixed a bug in clear() function
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 -------------------------------------------------------------------------------------------
 To Do
 # enable I2C (still disabled)

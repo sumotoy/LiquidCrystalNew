@@ -432,7 +432,7 @@ size_t LiquidCrystalNew::write(uint8_t value) {                      //print cal
 void LiquidCrystalNew::send(uint8_t value, uint8_t mode) {
 		uint8_t en = _en1;
 		if ((_en2 != 255) && (_chip)) en = _en2;
-		delayMicroseconds(DELAYPERCHAR);
+		//delayMicroseconds(DELAYPERCHAR);
 		setDataMode(mode);
 		
 		if (_driveType == 0){		// direct

@@ -1,6 +1,9 @@
 LiquidCrystalNew
 ================
 
+<b> OUTDATED!!!!!!!!!!</b> Please look at the version 2 in repository.
+
+
 A better universal alphanumeric LCD library for Arduino and Teensy 2,3.
 This library it's basically LiquidCrystal440 http://code.google.com/p/liquidcrystal440/
 
